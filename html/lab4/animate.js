@@ -3,11 +3,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
     images.forEach(image => {
       image.addEventListener('mouseenter', function () {
-        this.style.filter = 'brightness(80%)'; /* Promenite vrednosti da biste prilagodili zatamnjenje */
+        this.style.filter = 'brightness(80%)'; 
       });
 
       image.addEventListener('mouseleave', function () {
-        this.style.filter = 'brightness(100%)'; /* Vraćanje originalne svetlosti */
+        this.style.filter = 'brightness(100%)'; 
       });
     });
   });
