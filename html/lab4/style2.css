@@ -1,0 +1,17 @@
+.fancy-section {
+    padding: 50px;
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); 
+  }
+  
+  .fancy-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .fancy-section p {
+    font-size: 1.2em;
+  }
+  
+  
